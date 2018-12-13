@@ -1,10 +1,12 @@
 # WeblogChallenge
-This is an interview challenge for Paytm Labs. Please feel free to fork. Pull Requests will be ignored.
 
-The challenge is to make make analytical observations about the data using the distributed tools below.
+Instructions to run the program:
 
-## Processing & Analytical goals:
+1) Guznip the data: gunzip -k 2015_07_22_mktplace_shop_web_log_sample.log.gz
+2) Run the python file: python/python3.6 Sessionize_code.py
+3) Please refer to the sample_output file for locally tested results..
 
+ 
 1. Sessionize the web log by IP. Sessionize = aggregrate all page hits by visitor/IP during a session.
     https://en.wikipedia.org/wiki/Session_(web_analytics)
 
