@@ -5,6 +5,11 @@ Instructions to run the program:
 1) Guznip the data: gunzip -k 2015_07_22_mktplace_shop_web_log_sample.log.gz
 2) Run the python file: python/python3.6 Sessionize_code.py
 3) Please refer to the sample_output file for locally tested results..
+4) The predictions part is stored in Predictions_actual.py. The output file will be uploaded soon. 
+
+Note that I have not used a lot of regression estimators, something I can improve on. Furthermore, for the ML part, further feature engineering can definitely improve
+the performance..
+Please refer to comments as you read through the code..
 
  
 1. Sessionize the web log by IP. Sessionize = aggregrate all page hits by visitor/IP during a session.
